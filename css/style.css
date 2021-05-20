@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../img/back-img.jpg);
+    background-attachment: fixed;
+}
+
+#particles-js {
+    background-size: 100%;
+    margin: -2% 0 0 0;
+    height: 105%;
+    width: 100%;
+    background-size: auto;
+    background-color: rgba(12, 11, 19, 0.9);
+    overflow: hidden;
+    background-attachment: fixed;
+    position: fixed;
+    z-index: -1;
+}
+
+.menu-icon::before {
+    position: absolute;
+    z-index: 1;
+    content: "";
+    -webkit-transform: rotate( 45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate( 45deg);
+    background: #1da1f2;
+    width: 300%;
+    height: 300%;
+    top: -150%;
+    left: -150%;
+}
+
+.menu-icon {
+    float: left;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    padding: 40px;
+    left: 0;
+    width: 10px;
+    height: 16px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.menu-icon,
+.title-bar-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+back {
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    color: #4394e5;
+}
+
+a {
+    background-color: transparent;
+    color: #2199e8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-icon .bars {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    float: right;
+    position: absolute;
+    z-index: 2;
+}
+
+.menu-icon:before {
+    position: absolute;
+    z-index: 1;
+    content: "";
+    -webkit-transform: rotate( 45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate( 45deg);
+    background: #1da1f2;
+    width: 300%;
+    height: 300%;
+    top: -150%;
+    left: -150%;
+}
+
+.menu-icon .bar1,
+.bar2,
+.bar3 {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 32px;
+    background: #fff;
+    margin-bottom: 10px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+a,
+b,
+em,
+i,
+small,
+strong {
+    line-height: inherit;
+}
+
+ :after,
+ :before {
+    box-sizing: inherit;
+}
+
+.page-menu {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    display: block;
+    z-index: 2;
+    background: #ffffff;
+    height: 200%;
+    padding: 32px;
+    padding-top: 310px;
+    width: 200px;
+    padding-right: 0;
+    -webkit-transform: rotate( 45deg) translateY(-300px);
+    -ms-transform: rotate(45deg) translateY(-300px);
+    transform: rotate( 45deg) translateY(-300px);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+ :after,
+ :before {
+    box-sizing: inherit;
+}
+
+nav {
+    display: block;
+}
+
+#fp-nav.right,
+#fp-nav {
+    top: 33%;
+    right: 32px;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: #fff;
+}
+
+#sidebar ul li a span:before,
+.fp-slidesNav ul li a span:before {
+    position: absolute;
+    left: -0px;
+    width: 0px;
+    height: 2px;
+    margin-top: -1px;
+    top: 50%;
+    background: #ffffff;
+    content: "";
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+#sidebar {
+    position: fixed;
+    width: 10%;
+    height: 100%;
+    left: 5%;
+    top: -25%;
+    position: fixed;
+    z-index: 1;
+    content: "";
+    -webkit-transform: rotate( 45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate( 45deg);
+    background: #f4f8fa;
+    display: none;
+}
+
+#sidebar.active {
+    left: 5%;
+}
+
+#sidebar ul {
+    padding: 10%;
+    margin-top: 50%;
+}
+
+#sidebar li {
+    padding: 10%;
+    top: 20%;
+    margin-top: 20%;
+    -webkit-transform: rotate( -45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.new-page {
+    /* margin-left: 30%; */
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+.title {
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+hr {
+    width: 55%;
+    /* color: rgb(31, 29, 29); */
+    border: 1px solid rgb(63, 62, 62);
+}
+
+.logo-home {
+    margin: 10% 0 -2% 0;
+    height: 80px;
+}
+
+.c-logo .home-logo {
+    align-items: center;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(67, 12, 219);
+    border-radius: 50%;
+    display: inline-block;
+}
